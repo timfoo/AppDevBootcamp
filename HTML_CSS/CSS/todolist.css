@@ -1,0 +1,16 @@
+li{
+  color:green;
+  border: 2px solid brown;
+}
+
+/*#ID*/
+#special{
+  color:blue;
+}
+/*Note about IDs: Must only appear on HTML file once*/
+
+/*.class*/
+.completed{
+  color: #999999;
+  text-decoration: line-through;
+}
