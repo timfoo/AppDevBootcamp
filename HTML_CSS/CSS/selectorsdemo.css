@@ -1,0 +1,45 @@
+/*Element*/
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star*/
+/*select everything in the markup*/
+* {
+	border: 1px solid lightblue;
+}
+
+/*Descendant Selector*/
+/*select every a tag inside an li*/
+li a {
+	color: green;
+}
+
+/*Adjacent Selector*/
+/*Select all ul elements adjacent to an h4*/
+h4 + ul {
+	border: 1px solid grey;
+}
+
+
+/*Attribute Selector*/
+/*select elements based on a particular attribute*/
+/*Select all href to google*/
+a[href="http://www.google.com"] {
+	background: lightgreen;
+}
+
+/*nth of type*/
+/*takes every nth of a specific element*/
+/*selects every odd li*/
+li:nth-of-type(odd){
+	background: orange;
+}
